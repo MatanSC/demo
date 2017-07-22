@@ -137,7 +137,7 @@ def main():
     if not items:
         print('No files found.')
     else:
-        print('Files:')
+        print('List of Files:')
         for item in items:
             print('{0} ({1})'.format(item['name'], item['id']))
 
